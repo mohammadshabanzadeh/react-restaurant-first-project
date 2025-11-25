@@ -32,9 +32,9 @@ function Services() {
         <div className="text-center mb-20 max-w-[500px] mx-auto">
           <h1 className="text-3xl font-bold">خدمات ما</h1>
         </div>
-        <div className="grid grid-cols-1 mx-5 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
           {servicesData.map((service) => (
-            <div className="rounded-2xl bg-gray-800 hover:bg-yellow-500 text-white hover:text-white relative shadow-xl duration-high group max-w-100 hover:duration-200">
+            <div className="rounded-2xl mx-5 bg-gray-800 hover:bg-yellow-500 text-white hover:text-white relative shadow-xl duration-high group max-w-100 hover:duration-200">
               <div className="h-[120px]">
                 <img
                   src={service.img}
