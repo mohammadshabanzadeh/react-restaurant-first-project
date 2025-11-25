@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import AppStore from "./components/AppStore/AppStore";
-import Banner from "./components/Banner/banner";
+import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
